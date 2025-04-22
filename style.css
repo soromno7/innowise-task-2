@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 header {
   padding: 2rem 6rem 5rem 4rem;
   display: flex;
@@ -19,7 +23,7 @@ header {
 .header-left-part-svg {
   display: flex;
   align-items: center;
-  padding-right: 6rem;
+  padding-right: 10rem;
 }
 
 .header-left-part-svg > * {
@@ -29,6 +33,12 @@ header {
 .header-left-part-svg-burger {
   margin-right: 3rem;
 }
+
+.header-left-part-svg-logo {
+  width: 12rem;
+  height: 3rem;
+}
+
 
 .header-left-part-input {
   position: relative;
@@ -48,7 +58,7 @@ header {
 
 .header-left-part-input-icon {
   position: absolute;
-  top: 1.3rem;
+  top: 1.6rem;
   right: 2rem;
 }
 
@@ -69,14 +79,14 @@ header {
   right: -0.5rem;
   background-color: red;
   color: white;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   border: 1px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header-right-part-icon img {
@@ -126,6 +136,7 @@ header {
   align-items: center;
   margin-bottom: 2rem;
   width: 21rem;
+  cursor: pointer;
 }
 
 .section-main-aside-article-item:nth-last-child() {
@@ -154,6 +165,7 @@ header {
 .section-main-aside-bottom {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .section-main-aside-bottom-label {
@@ -167,12 +179,14 @@ header {
 }
 
 .section-main-main-section {
+  margin-bottom: 4rem;
 }
 
 .section-main-main-section-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .section-main-main-section-header-author {
@@ -180,7 +194,13 @@ header {
   align-items: center;
 }
 
+.section-main-main-section-header-author span {
+  font-size: 2rem;
+  color: #c2c2c2;
+}
+
 .section-main-main-section-header-author-image {
+  padding-right: 2.5rem;
 }
 
 .section-main-main-section-header-author-image img {
@@ -191,16 +211,21 @@ header {
 
 .section-main-main-section-header-author-name {
   font-size: 2.5rem;
-  padding-left: 2.5rem;
   color: #19202c;
+}
+
+.section-main-main-section-header-author-name.text {
+  font-size: 2.5rem;
+  color: #19202c;
+  padding-right: 2.5rem;
 }
 
 .section-main-main-section-header-swipers {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 21.5rem;
-  padding-right: 14rem;
+  width: 34.5rem;
+  padding-right: 27rem;
 }
 
 .section-main-main-section-header-swipers-item {
@@ -215,4 +240,85 @@ header {
   color: white;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.section-main-main-section-main-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4rem;
+}
+
+.section-main-main-section-main-list-item {
+  width: fit-content;
+}
+
+.section-main-main-section-main-list-item-img {
+  position: relative;
+  width: min-content;
+}
+
+.section-main-main-section-main-list-item-img img {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.section-main-main-section-main-list-item-img.big img {
+  width: 54rem;
+  height: 25rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.section-main-main-section-main-list-item-img-duration {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 1.6rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 15px;
+}
+
+.section-main-main-section-main-list-item-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-main-main-section-main-list-item-data h3 {
+  margin: 1rem 0rem 0.3rem 0rem;
+  font-size: 2rem;
+}
+
+.section-main-main-section-main-list-item-data-footer {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  color: #c2c2c2;
+}
+
+.section-main-main-section-main-list-item-data-footer-wrapper {
+  display: flex;
+}
+
+.section-main-main-section-main-list-item-data-footer-wrapper-date::before {
+  content: " • ";
+  color: #c2c2c2;
+  padding: 0 1rem;
+}
+
+.section-main-main-section-header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.section-main-main-section-header-button {
+  color: white;
+  background-color: #ff0000;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  margin-right: 4rem;
 }
