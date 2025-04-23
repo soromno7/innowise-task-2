@@ -86,5 +86,9 @@ html {
     .section-main-main-section-header-button, .section-main-main-section-header-author span{
       display: none;
     }
+
+    .footer-mobile {
+      display: flex;
+    }
   }
 }
