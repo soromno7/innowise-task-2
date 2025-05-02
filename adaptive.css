@@ -4,7 +4,7 @@ html {
   @media (max-width: 768px) {
     font-size: calc(100vw / 425 * 10);
 
-    header {
+    .header {
       padding: 2rem 3rem 1rem 3rem;
       position: fixed;
       z-index: 100;
@@ -12,84 +12,84 @@ html {
       width: 100%;
     }
 
-    .header-left-part-svg-burger {
+    .header__burger {
       display: none;
     }
 
-    .section-main-main-section-header:nth-child(1) {
+    .section__header:nth-child(1) {
       margin-top: 9rem;
     }
 
-    .header-right-part-icon:nth-child(n) {
+    .header__right > div:nth-child(n) {
       display: none;
     }
 
-    .header-right-part-icon:last-child {
+    .header__right > div:last-child {
       display: block;
     }
 
-    .header-right-part {
+    .header__right {
       width: fit-content;
     }
 
-    .header-left-part-input input {
+    .header__input input {
       display: none;
     }
 
-    .header-left-part-input-icon {
+    .header__icon.header__icon--search {
       top: -1.5rem;
       right: -6rem;
     }
 
-    .header-left-part-input-icon svg {
+    .header__icon.header__icon--search svg {
       width: 2.5rem;
       height: 2.5rem;
     }
 
-    .header-right-part-icon:last-child img {
+    .header__right > div:last-child img {
       height: 5rem;
       width: 5rem;
       border-radius: 50%;
     }
 
-    .section-main-main-section {
+    .main__section {
       padding: 0rem 3rem;
     }
 
-    .section-main-aside {
+    .section__aside {
       display: none;
     }
 
-    .section-main-main-section-main-list {
+    .main__section-list {
       flex-wrap: wrap;
       flex-direction: column;
-    }
-
-    .section-main-main-section-header-swipers {
-      display: none;
-    }
-
-    .section-main-main-section-main-list-item,
-    .section-main-main-section-main-list-item-img {
       width: auto;
     }
 
-    .section-main-main-section-main-list-item-img img {
-      width: 100%;
-      height: 20rem;
-    }
-
-    .section-main-main-section-main-list-item-img.big img {
-      width: 100%;
-      height: 20rem;
-    }
-
-    .section-main-main-section-header-button,
-    .section-main-main-section-header-author span {
+    .section__header-swipers {
       display: none;
     }
 
-    .footer-mobile {
+    .section__list-item,
+    .list__item-img {
+      width: auto;
+    }
+
+    .list__item-img img {
+      width: 100%;
+      height: 20rem;
+    }
+
+    .list__item-img.big img {
+      width: 100%;
+      height: 20rem;
+    }
+
+    .header__wrapper {
+      display: none;
+    }
+
+    .footer {
       display: flex;
       position: sticky;
       bottom: 0;

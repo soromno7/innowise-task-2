@@ -14,10 +14,10 @@
     <title>innowise-task-2</title>
   </head>
   <body>
-    <header>
-      <div class="header-left-part">
-        <div class="header-left-part-svg">
-          <div class="header-left-part-svg-burger">
+    <header class="header">
+      <div class="header__left">
+        <div class="header__logo">
+          <div class="header__burger">
             <svg
               width="2rem"
               height="2rem"
@@ -33,7 +33,7 @@
               />
             </svg>
           </div>
-          <div class="header-left-part-svg-logo">
+          <div>
             <svg
               width="12rem"
               height="3rem"
@@ -63,9 +63,9 @@
             </svg>
           </div>
         </div>
-        <div class="header-left-part-input">
+        <div class="header__input">
           <input type="text" placeholder="Search" />
-          <div class="header-left-part-input-icon">
+          <div class="header__icon header__icon--search">
             <svg
               width="2rem"
               height="2rem"
@@ -83,8 +83,8 @@
           </div>
         </div>
       </div>
-      <div class="header-right-part">
-        <div class="header-right-part-icon">
+      <div class="header__right">
+        <div>
           <svg
             width="2.7rem"
             height="2rem"
@@ -101,7 +101,7 @@
             />
           </svg>
         </div>
-        <div class="header-right-part-icon">
+        <div>
           <svg
             width="2rem"
             height="2rem"
@@ -118,8 +118,8 @@
             />
           </svg>
         </div>
-        <div class="header-right-part-icon">
-          <div class="header-right-part-icon-bage">3</div>
+        <div class="header__icon">
+          <div class="icon__bage">3</div>
           <svg
             width="2.2rem"
             height="2.6rem"
@@ -136,16 +136,16 @@
             />
           </svg>
         </div>
-        <div class="header-right-part-icon">
-          <img src="images/header-image.png" />
+        <div>
+          <img class="icon__image" src="images/header-image.png" />
         </div>
       </div>
     </header>
-    <section class="section-main">
-      <aside class="section-main-aside">
-        <nav class="section-main-aside-nav">
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+    <section class="section">
+      <aside class="section__aside">
+        <nav class="aside__nav">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2rem"
                 height="2rem"
@@ -161,10 +161,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Home</div>
+            <span>Home</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="1.6rem"
                 height="2.1rem"
@@ -181,10 +181,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Trending</div>
+            <span>Trending</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="1.8rem"
                 height="1.8rem"
@@ -201,10 +201,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Subscriptions</div>
+            <span>Subscriptions</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2rem"
                 height="1.6rem"
@@ -221,10 +221,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Library</div>
+            <span>Library</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2rem"
                 height="1.8rem"
@@ -241,10 +241,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">History</div>
+            <span>History</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="1.7rem"
                 height="1.9rem"
@@ -261,10 +261,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Watch later</div>
+            <span>Watch later</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2rem"
                 height="2rem"
@@ -281,10 +281,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Favourites</div>
+            <span>Favourites</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="1.8rem"
                 height="1.7rem"
@@ -301,10 +301,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Liked videos</div>
+            <span>Liked videos</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2rem"
                 height="2rem"
@@ -321,10 +321,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Music</div>
+            <span>Music</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="2.2rem"
                 height="1.6rem"
@@ -341,10 +341,10 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Games</div>
+            <span>Games</span>
           </div>
-          <div class="section-main-aside-nav-item">
-            <div class="section-main-aside-nav-item-icon">
+          <div class="nav__item">
+            <div>
               <svg
                 width="1.4rem"
                 height="0.8rem"
@@ -359,58 +359,50 @@
                 />
               </svg>
             </div>
-            <div class="section-main-aside-nav-item-label">Show more</div>
+            <span>Show more</span>
           </div>
         </nav>
-        <article class="section-main-aside-article">
-          <h3 class="section-main-aside-article-title">Subscriptions</h3>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-1.png" />
+        <article class="aside__article">
+          <h3 class="article__title">Subscriptions</h3>
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-1.png" />
             </div>
-            <div class="section-main-aside-article-item-label">
-              Gussie Singleton
-            </div>
+            <span class="article__item-label"> Gussie Singleton </span>
           </div>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-2.png" />
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-2.png" />
             </div>
-            <div class="section-main-aside-article-item-label">
-              Nora Francis
-            </div>
+            <span class="article__item-label"> Nora Francis </span>
           </div>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-3.png" />
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-3.png" />
             </div>
-            <div class="section-main-aside-article-item-label">
-              Belle Briggs
-            </div>
+            <span class="article__item-label"> Belle Briggs </span>
           </div>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-4.png" />
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-4.png" />
             </div>
-            <div class="section-main-aside-article-item-label">
-              Eunice Cortez
-            </div>
+            <span class="article__item-label"> Eunice Cortez </span>
           </div>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-5.png" />
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-5.png" />
             </div>
-            <div class="section-main-aside-article-item-label">Emma Hanson</div>
+            <span class="article__item-label">Emma Hanson</span>
           </div>
-          <div class="section-main-aside-article-item">
-            <div class="section-main-aside-article-item-image">
-              <img src="images/image-6.png" />
+          <div class="article__item">
+            <div>
+              <img class="item__image" src="images/image-6.png" />
             </div>
-            <div class="section-main-aside-article-item-label">Leah Berry</div>
+            <span class="article__item-label">Leah Berry</span>
           </div>
         </article>
-        <div class="section-main-aside-bottom">
-          <div class="section-main-aside-bottom-icon">
+        <div class="aside__bottom">
+          <div>
             <svg
               width="2rem"
               height="2rem"
@@ -427,22 +419,20 @@
               />
             </svg>
           </div>
-          <div class="section-main-aside-bottom-label">Setting</div>
+          <span class="aside__bottom-label">Setting</span>
         </div>
       </aside>
-      <main class="section-main-main">
-        <section class="section-main-main-section">
-          <div class="section-main-main-section-header">
-            <div class="section-main-main-section-header-author">
-              <div class="section-main-main-section-header-author-image">
+      <main class="section__main">
+        <section class="main__section">
+          <div class="section__header">
+            <div class="header__author">
+              <div class="header__author-image">
                 <img src="images/image-1.png" />
               </div>
-              <div class="section-main-main-section-header-author-name">
-                <h3>Dollie Blair</h3>
-              </div>
+              <h3 class="header__author-name">Dollie Blair</h3>
             </div>
-            <div class="section-main-main-section-header-swipers">
-              <div class="section-main-main-section-header-swipers-item">
+            <div class="section__header-swipers">
+              <div class="swipers__item">
                 <svg
                   width="8"
                   height="12"
@@ -458,7 +448,7 @@
                   />
                 </svg>
               </div>
-              <div class="section-main-main-section-header-swipers-item">
+              <div class="swipers__item">
                 <svg
                   width="8"
                   height="12"
@@ -476,258 +466,124 @@
               </div>
             </div>
           </div>
-          <div class="section-main-main-section-main-list">
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+          <div class="main__section-list">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/e973/96ae/3066385462574d299b094803cd8e651a?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Zm2NliBVpRQE~0RdCyw4V~psIywtFq8YcF2~2nPoJgAnNTHs7iv2KmL~CSJ605AyHh6EvsmsggY3BPlNP84aw6XvGxEjQnDl-S8oN9Pr6PAw-hPpLBW-GKCUzvI9qVbxd5K4M6q2i5-SBK8XF5Xbn9eCWdSBZ-aWuPT~rqNcQ5VuUexGx~JOvqbhRYPrQpq82qEZaXCGWbsn2RjWNukmUFyaPn4t21y454VBHDixJERtpngQ32Ch-XYHl734VyHWk38QmhG9hRxOszF05AMJhsemoixtA-RAZAfQ~9DPbXd54fn10h~NvNklf8AWiSh3pvvKk6aTMuHVgqop7msNDQ__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  4:15
-                </div>
+                <span>4:15</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  A Brief History Of Creation
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      80k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      3 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>A Brief History Of Creation</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 80k views </span>
+                    <div class="wrapper__date">3 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/a9dc/c6bd/c2bd4355c20129db78b4dc434e9d1999?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=N1H1MkzCFueSEgKr-zrTpFUDfptiZ8rbfhjyPA76JTxymMgK0UXzScbGvejb2DIuNaSSJKwterUNSGWdD64QWA79F~MLM~gWYyixtBTWKB8LCm3QevzpJgxTWwvQBKYuD7HGngFZWLnPdyLlTwaZUfL7yXTb8yzaWg5Nodayt3lk34JrosgHV3ZoxDarEDTayRcots7NcVul-xj4qQF7oWl3IoW76-LlxhKFj09AQQYgRRwZ7cZG~6Ce4XnGRBG6ptVSI~HtPzVOdsWtNstWeqe4zE-2kN9ASEqfZDYFrws1fmM67Bh228yKPUTP88bzhebbdXF7jJDs4NfmyDdIkg__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  8:00
-                </div>
+                <span>8:00</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Selecting The Right Hotel
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      123k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      1 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Selecting The Right Hotel</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 123k views </span>
+                    <div class="wrapper__date">1 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/04f0/4135/14772ff5209cf8ebd96d5689eadfdf4d?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyYdxDkZe6LhnV1bjWgSFO4~bVgvZDCBX~RFoqbsWt3KK2OsweAkknCDYuCjU1ch48iu3bg3J9g3y-42UaGTj7cEraoWzNoLrFeGYrkmc5TrbxF55x3jhfE3MCE7C63lAvsCSURaR9rG~mgkzBpTMYzJy6XSGvFvpfOXBsEIxpYN-It6ZXqmuv53o4UEjPtFx5aLjTXwjo5Xdk-nF5ubxvjkw2TH7Uk3VhAF~xP-uTzN5vOk9J7OOBp1to1JK8Uwd9ivns95JoSGUFgwt6r~hcGXJ4jF9zXl0pbUfugNFkvjNZCzYBis7hhQ~3ejgnPl~y5Ge9nIqdIo9weHE2JdZg__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  5:32
-                </div>
+                <span>5:32</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Asteroids
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      43k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      12 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Asteroids</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 43k views </span>
+                    <div class="wrapper__date">12 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/27f6/31e6/fb4b95b7e6060e1969c140d358b7a11d?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XF~BPkCL0P-BG3VPkeiHSTHyXh7lArQ16Xjh0MuaiTbi-AQDssy8ACSrlCWdtWDJ2nwgSUftry7sulLsM852S3hCItiOQLpeX-P9Jvkqle9h1eGH4O7QpPB87d9o66i9fDQy6pNyWpy-xjmWVzdp1uqmE9bL9GIyPNGMv-HM4ZwGjxZN80l5LdtZtLIBj0GYHlmETjCgn4cYiFdnjlIJCv9aHxWDthPuwk4Pq58jEgtu3pdGjAGwlv9~wRzNlsJioY4DBj6YMoH830l4u-USziyQAq77hseJtgO3uRNwaTM0YwEBucsQrXFNwkSw~gvgU2sz6CWpq27Nt2ClOS3Opw__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Telescopes 101
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      11k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      6 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Telescopes 101</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 11k views </span>
+                    <div class="wrapper__date">6 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/3759/13d4/d4777b41f846b92e8b62a3f092c66e22?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DVOWMtsymrr5q-nHlCHCZOLycqFvYUDxo28KLBt5YeWcvYkUi2Ml5TFHUzM1txwPGH5WcYkobGI-06G8YYmSee4FqigojGNhkUBwjoPy2My22nKHZ4QzWtwd-IMDZrdhDya2XX-AqvRHOfSeFyJf-piIXF~xftctBPfZOMQRbf4tjbeUMbDAbvITitN6bl4TYye72ocji2AIvvKHZ9FXgauUN477TR1n705mug-mQTfiIecW-9pQ2U--Q5YIBtNhFCbx2G5bBPBtqsoVrgiZaP4r-RREvP6tGzbr56wVBm1kDHhI6bp6lG49ucHtvWa306bMarXb-NaBo2TPJeBfFg__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Medical Care Is Just
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      18k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      2 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Medical Care Is Just</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 18k views </span>
+                    <div class="wrapper__date">2 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/f763/528a/1c3b64f7deef1ab39c70ab3ac758e735?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=F74BJm6Kk6CGRTG0NvlaGzOlRO24nr4thTUbDuYc5DairuOtECiFidTIUVXqhPwRvHUvRKw14JQeKexvXTnbrugyFV-hnFM5SYLHED9UPOo6Wx-anGU06zeVdSVsq7DEYLwhnrFaC4zS9oQDLTdFc7ziWMxNhE4YuSDwL9sGZYA6Z2PkSxOT7hCRmU3yt8Zr-cdLPX11oFf~t3eRQqNa-4xAsUm7VACA5x14AQuVYXotN8lmNZjEqIElsoeWzgegrGHuJ9bq7bZmrnSZCpith2PCkQGOEWHd-AvfYMPHWDr~u3AmtV3iguuJterrhGXiTT7clL30xYMX6Eti2DYDTw__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Moon Gazing
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      67k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      4 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Moon Gazing</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 67k views </span>
+                    <div class="wrapper__date">4 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section-main-main-section">
-          <div class="section-main-main-section-header">
-            <div class="section-main-main-section-header-author">
-              <div class="section-main-main-section-header-author-name">
-                <h3>Recommended</h3>
-              </div>
+        <section class="main__section">
+          <div class="section__header">
+            <div class="header__author">
+              <h3 class="header__author-name">Recommended</h3>
             </div>
-            <div class="section-main-main-section-header-swipers">
-              <div class="section-main-main-section-header-swipers-item">
+            <div class="section__header-swipers">
+              <div class="swipers__item">
                 <svg
                   width="8"
                   height="12"
@@ -743,7 +599,7 @@
                   />
                 </svg>
               </div>
-              <div class="section-main-main-section-header-swipers-item">
+              <div class="swipers__item">
                 <svg
                   width="8"
                   height="12"
@@ -761,146 +617,76 @@
               </div>
             </div>
           </div>
-          <div class="section-main-main-section-main-list">
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img big">
+          <div class="main__section-list">
+            <div class="section__list-item">
+              <div class="list__item-img big">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/201e/12a4/06474313a7f0daa111af21b7852dec0d?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hrXRkG1M7nJ~~xpKUo3wBgFE74hLmEuxUoR1ypJi72rwqek2Reaap6Y9ATw--hSPojbittKFfQXIFC437AkZN1OQ9tydiTad6sWtMsa4uXhYTAjlk0EMVr-DIOYNF55u3WejPBbOQeiWCpV45D7IT~pmhZ6Yl0PM2cthqH1e8JHXxsD6yITY2DyAS6ltoF~vhKahPUU7th0BzLdLRZnpNQxPSQ8HhLWLrS5d37I3rVfJ1fXT5kVX1K-bFKOXw9ycyGbofrgXLIuHuskDSBziBVz-Ue8BKFtbM57Csl7eza3yFmCS9tPlLO88~PHqfxWP8AMHGful1V~7nMYa-ES4cQ__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  4:15
-                </div>
+                <span>4:15</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Dude You Re Getting A Telescope
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      80k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      3 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Dude You Re Getting A Telescope</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 80k views </span>
+                    <div class="wrapper__date">3 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Gussie French
-                  </div>
+                  <span> Gussie French </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img big">
+            <div class="section__list-item">
+              <div class="list__item-img big">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/637f/9aa2/d8dcce40a372840ff1b877a421742ef0?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SEkY7UfZGmfHWk6~zSB0wojjfnPoRslP1Uy4pE0m5EzvMQmEukgTzRsFaikTe4gQpkjpVJEWd7GtjJp6~Xg8a6nagFY8OlWETh-namxd-av3HbRb84R8oxrR6xXV-aEgh-famrJzLgLRqT~ca4YD2rs34lxjocEdW~JknsWvv2QjEHAMWmuxGXVewdN976neMca9nL0lesqHdqH3RMouKZbKYxruSXvenE61qgwtB-Yk6h6ZIKzl3mpT5BOsFxgbU43h6ZSLTfsAswTppvZdpr9wxktXhBYiVGx3mdui1-TlO13rvXDvagrEIXwenecUf0uuqAo9stO5fCMOn8NI5A__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  8:00
-                </div>
+                <span>8:00</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Moon Gazing
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      123k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      1 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Moon Gazing</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 123k views </span>
+                    <div class="wrapper__date">1 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Edward Osborne
-                  </div>
+                  <span> Edward Osborne </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img big">
+            <div class="section__list-item">
+              <div class="list__item-img big">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/c787/5189/9ac396a87edb8f65cc433f6840af61de?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fx5mJwjuVU5IxjlHp7y~Lin9G6PkKN1TPftQ-36Sgfp1ObGFMnia26SIZrq2IkuW0KaH-YNalcd-WsqPqyeT3j4kk~2hTFMcZA-LMAvQ3hWfU2G7YPf7G5oGsSK1E59Mvek1eHDrlcoz5GATA9UQ6Asb4XzagbmO0EEIj7KnWleqzY33hz0~ORKerA4HfHq3~sWRVlFNAp2fInEuYpf6sdg1SQNqDb44VlZTH65-wHuneOWIH~zzqApUQT6SutyEOQY38Poouwb0~NTA86Tq~WJmAQUpMjhTcCgUtCiug~k0HmmECpDEEIERbzWix2PG8ubHf2LALwX-6IMJZCVGZg__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Moon Gazing
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      67k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      4 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Moon Gazing</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 67k views </span>
+                    <div class="wrapper__date">4 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Dollie Blair
-                  </div>
+                  <span> Dollie Blair </span>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section-main-main-section">
-          <div class="section-main-main-section-header">
-            <div class="section-main-main-section-header-author">
-              <div class="section-main-main-section-header-author-image">
+        <section class="main__section">
+          <div class="section__header">
+            <div class="header__author">
+              <div class="header__author-image">
                 <img src="images/image-7.png" />
               </div>
-              <div class="section-main-main-section-header-author-name text">
-                <h3>Food & Drink</h3>
-              </div>
+              <h3 class="header__author-name">Food & Drink</h3>
               <span>Recommended channel for you</span>
             </div>
-            <div class="section-main-main-section-header-wrapper">
-              <div class="section-main-main-section-header-button">
-                Subscribe 2.3m
-              </div>
-              <div class="section-main-main-section-header-swipers">
-                <div class="section-main-main-section-header-swipers-item">
+            <div class="header__wrapper">
+              <div class="section__header-button">Subscribe 2.3m</div>
+              <div class="section__header-swipers">
+                <div class="swipers__item">
                   <svg
                     width="8"
                     height="12"
@@ -916,7 +702,7 @@
                     />
                   </svg>
                 </div>
-                <div class="section-main-main-section-header-swipers-item">
+                <div class="swipers__item">
                   <svg
                     width="8"
                     height="12"
@@ -935,244 +721,112 @@
               </div>
             </div>
           </div>
-          <div class="section-main-main-section-main-list">
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+          <div class="main__section-list">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/1b4e/e8dc/89ffe7754bf05c036c0012ad1e127ab9?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=V3Npf~f79Ox2La19aKshbGhYYdWHQkL2PWXM2TAOUrYvbIoG8HL2fPQQ20Bm~npa1oeGCa14Co36Yk3Ko6Khko0Edn9v2SYOPxxEdGJ5ll5M2SIFOcV3dAICRMlXYddYXy2do8f~d4-ZMo4eCVoR3OhOERcsf~EeBs1KZt0uNkhojUCmS5GV6dtqEiFdkRxmax8P4uYROTc9d5w4MKJSmDsAg4nHdHHfV3LO1i4mnRhEH-TpPp8WLJYiMOZBUf7V9SIMb6hq~VEKDdlq~sDKG11Tr5kpKaOz2JCL2XQH09OXt6FG8lSBn~3L7VqzWMUBo8BFGdTgC-eOvFU5LzscCw__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  4:15
-                </div>
+                <span>4:15</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  A Brief History Of Creation
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      80k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      3 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>A Brief History Of Creation</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 80k views </span>
+                    <div class="wrapper__date">3 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/eb2f/d0ec/1c40f673fb956c7013f64192bed723ad?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KOQJGsc49SgdBt~hmlo9eGvC8HFG4x-4LS4SfEFnov8bx6Ugnhz4-6edjKDCGv47mS1HJlgLw04qZU9finyaHjgfdTZgWFn9KX4sAMXIgZP02M~IboM8I4DD7bVmllu4x1BN0hBUp6F13gXM06fHOl7t~b49pSiHfcw08fjdXtS1Be-mqkyGvTO-3W5LTDG2YKCcLlpa1FarmrPvoyHywUjzUN7ycrw8ublGxfJMHgR5GFzTPYaoflkxhREbvhRXAUgcRf8cc34voFmWA4UXYLOI~p30bY14Cq8-O~gKr4~ITUb3vGrACoPaa9oV7BfLCWbZlHBLe2Ys7ZLg1pl6GA__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  8:00
-                </div>
+                <span>8:00</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Selecting The Right Hotel
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      123k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      1 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Selecting The Right Hotel</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 123k views </span>
+                    <div class="wrapper__date">1 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/95a6/5373/dbf7a16f622a33e17d214769821c186f?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JRfszFqLEN~nhfjbCh0Wh08Pm-EspbCq8a6qCUqSEmW56xwEPe7rGjk2v0IlX5jHbPWw3J7qlcHoRELtU9nJt9DW9bAvvSJujSdSsF~JJoHQKWaG8bbmeK73BSBUCl1vlQR8PWZvF~ynZnFqPcRhJZkHIBoabEav6C5ZF0qs68P0RUTk253KV~CBwqocQU-rlvgQHW2KaKfg5AcBNU2H64wpMVI7BjxhlzOUO~n8R25K3wdqI~g0Ku-StcK4zB4Z0JT7cdNLBstCm9G0nm3bOO6zRQNMTtqnylBpZFqw6kU9mjChXUBE6ZNUuOpeyXUexd87GYnrqmwAeKWW5idV7g__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  5:32
-                </div>
+                <span>5:32</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Asteroids
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      43k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      12 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Asteroids</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 43k views </span>
+                    <div class="wrapper__date">12 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/2f59/e882/1cc6e0b8e432980436f6b9ffd9f43edc?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YZJ3COaEQiFzAUJWBcxW4a1CbMMMGr-4q0tmIUktRNUtTT00GF8dv8N3iYrMSWpv9q4CS4-cuZxKOv-HI~9kOPFyDTn48b9~7DOPWKaEImLk95zScFKmSFhaRF~zv8~8P3RPY3sDIUWKNubWNQuoYlWVckagafB-HlBGQTFRR~kCL7xYgwYLJtx4iXdqQz9XVJ1BQpbE4Gj1F7oXOd1xJexr-wBtStGEAHsZo3d5geeJTDzsOhTAs2e0Ld1kVeyNsuKAAq~7MC4i4XzYjVoCIwawdVKykzK6JWaJjGFxdTam~N~HbKx3XzE9iSisGi~nOkQOAl~V2rEytVaNx3yfhA__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Telescopes 101
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      11k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      6 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Telescopes 101</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 11k views </span>
+                    <div class="wrapper__date">6 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/efab/1512/4b8d491e7d8d6e73459da70a147410aa?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kiTPF4~Ko2UbQ4nMLAT7A2yuNTLPAgKS3res8DsHPAJYg7-fiehZ7aHgA0FTsyPOL~TOEjUQlPXESKTVxNIbGZDxepxNR06wk2NdPMnisK3btHTOr1EgpYnw6lVoQ6l8bFA29ZKgV8yqcxs20THgK14c9vt5N7baNIRtJfRUN-JXghWfR4oXEnieyIfuSF142RTQQtQUv0gSazTfWcxSClictYufZGJDoLe5PsxEwvawY~NYpCkIftBXQP4lX8vjYKPXNr7CkWx1f5zNucDNusGZYh6-XMrMf6Mea-fMSJ6n68Ag5rKFrqug5qnjuDcFbJitU1HBK5I9Ebj2xyr7gg__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Medical Care Is Just
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      18k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      2 days ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Medical Care Is Just</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 18k views </span>
+                    <div class="wrapper__date">2 days ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
-            <div class="section-main-main-section-main-list-item">
-              <div class="section-main-main-section-main-list-item-img">
+            <div class="section__list-item">
+              <div class="list__item-img">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/0d6a/7986/203d1247bf97c8efb6258b31cf102862?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Brg2zvsDZ9OM6VEH~ABBgLzismh6xH4whhZYmBuSx8aZ-Ym6Ap7oHG-~Ow4iNMMUzVg0YA0OV8x7On-F-rVCYqQyzwlSRyVLBUqQK8lZDfNSsB7w7cHPBCtN-d8KHwmgm7txvJ4wkM8-Bjw9whzkTi9ZftlRzMwzYCYShnWHz~FD8LplFr~vBlC5FKZgbUOGUmZd31wJkz1Jzk2ANkdsygB6Q71O1wwUs~FdlUthx4h~SZ5GZ79kZ~aqcxV1prXX--8rtH2njvBuTvAiDhHT3hrdN4Vs0ENEU0P9jQvQR7DcegjkXAKH6cGOBHbf71fpllYw1ziYgX9o7gK~bxTa4A__"
                 />
-                <div
-                  class="section-main-main-section-main-list-item-img-duration"
-                >
-                  6:40
-                </div>
+                <span>6:40</span>
               </div>
-              <div class="section-main-main-section-main-list-item-data">
-                <h3 class="section-main-main-section-main-list-item-data-title">
-                  Moon Gazing
-                </h3>
-                <div
-                  class="section-main-main-section-main-list-item-data-footer"
-                >
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-wrapper"
-                  >
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-views"
-                    >
-                      67k views
-                    </div>
-                    <div
-                      class="section-main-main-section-main-list-item-data-footer-wrapper-date"
-                    >
-                      4 month ago
-                    </div>
+              <div class="list__item-data">
+                <h3>Moon Gazing</h3>
+                <div class="data__footer">
+                  <div class="data__footer-wrapper">
+                    <span> 67k views </span>
+                    <div class="wrapper__date">4 month ago</div>
                   </div>
-                  <div
-                    class="section-main-main-section-main-list-item-data-footer-author"
-                  >
-                    Food & Drink
-                  </div>
+                  <span> Food & Drink </span>
                 </div>
               </div>
             </div>
@@ -1180,8 +834,8 @@
         </section>
       </main>
     </section>
-    <footer class="footer-mobile">
-      <div class="footer-mobile-item">
+    <footer class="footer">
+      <div class="footer-item">
         <svg
           width="3rem"
           height="3rem"
@@ -1198,7 +852,7 @@
         </svg>
         <span>Home</span>
       </div>
-      <div class="footer-mobile-item">
+      <div class="footer-item">
         <svg
           width="3rem"
           height="3rem"
@@ -1216,7 +870,7 @@
         </svg>
         <span>Trending</span>
       </div>
-      <div class="footer-mobile-item">
+      <div class="footer-item">
         <svg
           width="3rem"
           height="3rem"
@@ -1235,7 +889,7 @@
 
         <span>Subscriptions</span>
       </div>
-      <div class="footer-mobile-item">
+      <div class="footer-item">
         <svg
           width="3rem"
           height="2.6rem"
