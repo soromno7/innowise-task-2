@@ -43,7 +43,7 @@ html {
 .header__logo {
   display: flex;
   align-items: center;
-  padding-right: 100px;
+  padding-right: 10rem;
 }
 
 .header__logo > * {
@@ -56,11 +56,14 @@ html {
 
 .header__input {
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header__input input {
-  width: 830px;
-  height: 20px;
+  width: 70rem;
+  height: 2rem;
   padding: 25px;
   border: #f9f9f9;
   border-radius: 25px;
@@ -72,12 +75,11 @@ html {
 
 .header__icon--search {
   position: absolute;
-  top: 16px;
-  right: 20px;
+  right: 2rem;
 }
 
 .header__right {
-  width: 300px;
+  width: 20vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,8 +95,8 @@ html {
   right: -5px;
   background-color: red;
   color: white;
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   border: 1px solid white;
   border-radius: 50%;
   display: flex;
@@ -114,7 +116,7 @@ html {
 }
 
 .section__aside {
-  padding: 0 60px 35px 40px;
+  padding: 0 6rem 35px 40px;
 }
 
 .nav__item {
@@ -126,7 +128,7 @@ html {
 }
 
 .nav__item > div {
-  width: 45px;
+  width: 4.5rem;
 }
 
 .nav__item:nth-child(1) {
@@ -149,7 +151,6 @@ html {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  width: 210px;
   cursor: pointer;
 }
 
@@ -195,6 +196,7 @@ html {
 .section__header {
   display: flex;
   justify-content: space-between;
+  max-width: 80vw;
   margin-bottom: 30px;
 }
 
@@ -232,13 +234,13 @@ html {
 .section__header-swipers {
   display: flex;
   align-items: center;
-  padding-right: 170px;
+  padding-right: 120px;
   gap: 10px;
 }
 
 .swipers__item {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,18 +258,18 @@ html {
 }
 
 .swipers__item:nth-child(1) svg {
-  left: 12px;
+  left: 7.5px;
 }
 
 .swipers__item:nth-child(2) svg {
-  left: 16px;
+  left: 10.5px;
 }
 
 .main__section-list {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 40px;
   overflow-x: auto;
+  gap: 30px;
+  width: 80vw;
 }
 
 .main__section-list::-webkit-scrollbar {
