@@ -72,7 +72,7 @@ html {
 
     .section__list-item,
     .list__item-img {
-      width: auto;
+      width: 100vw;
     }
 
     .list__item-img img {
